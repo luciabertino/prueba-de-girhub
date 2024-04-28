@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(249, 237, 239);
+
+}
+.tabla{
+    background-color:rgb(252, 208, 215);
+    
+}
+.t1{
+    text-align: center;
+    background-color: rgb(252, 208, 215);
+    padding: 20px;
+}
+footer {
+    background-color: rgb(225, 176, 183);
+    text-align: center;
+    height: 50px
+}
+.vendido{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(107, 76, 81);
+}
+td {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(87, 61, 66);
+
+}
+.ultimo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
