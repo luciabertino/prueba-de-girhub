@@ -1,10 +1,45 @@
 body{
     background-color: rgb(249, 237, 239);
-
+width: 90%;
+max-width: 900px; margin: 0 auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.zapatos{
+    width: 150px; height: 150px;  border-radius: 5px;
+    background-color: rgb(242, 212, 216);padding: 1em;
+    float: left;
+    margin-right: 15px;
+}
+.zapatos2{
+    width: 150px; height: 150px; border-radius: 5px;
+    background-color: rgb(242, 212, 216);padding: 1em;
+    float: right;
+    margin-left: 15px;
+}
+.talles{
+    background-color: rgb(252, 215, 220);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.talles2{
+    background-color: rgb(252, 215, 220);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+.derecha{
+    text-align: right;
+}
+.c1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .tabla{
     background-color:rgb(252, 208, 215);
-    
 }
 .t1{
     text-align: center;
