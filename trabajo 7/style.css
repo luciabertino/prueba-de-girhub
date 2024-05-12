@@ -1,0 +1,66 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.cajas{
+background-color: blueviolet;
+}
+.cajas1{
+    background-color: aquamarine;   
+}
+.cajas2{
+    background-color: grey;
+}
+.cajas3{
+    background-color: blanchedalmond;
+}
+.cajas4{
+    background-color: blue;
+}
+.cajas5{
+    background-color: chocolate;
+}
+.cajas6{
+    background-color: darkgreen;
+}
+.cajas7{
+    background-color: crimson;
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .contenedor{
+        width: 100%;
+        padding-left: 23px;
+        flex-direction: column-reverse;
+    }
+    .cajas{
+        width: 100%;
+        grid-column-start:100px ;
+        grid-row-start: 0 auto;
+    }
+    .cajas{
+        background-color: deeppink;
+        }
+        .cajas1{
+            background-color: dodgerblue;  
+        }
+        .cajas2{
+            background-color: gold;
+        }
+        .cajas3{
+            background-color: greenyellow;
+        }
+        .cajas4{
+            background-color: burlywood;
+        }
+        .cajas5{
+            background-color: hotpink;
+        }
+        .cajas6{
+            background-color: aqua;
+        }
+        .cajas7{
+            background-color: darkred;
+        }
+}
