@@ -1,5 +1,5 @@
 body{
-   background-color: pink;
+ background-color
 }
 .logo{
     display: flex;
@@ -20,3 +20,6 @@ footer {
     text-align: center;
     height: 50px
 }
+$theme-colors: (
+  body::backdrop
+)
